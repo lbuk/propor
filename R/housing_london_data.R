@@ -1,0 +1,16 @@
+#' Data on Housing Stats in London
+#'
+#' @title housing_london
+#' @description An sf dataset containing a hexagonal grid of London boroughs with information on average annual net housing completions between 2020/21 and 2022/23.
+#' @format A data frame with 33 rows and 5 variables:
+#' \describe{
+#'   \item{\code{borough}}{character Borough name}
+#'   \item{\code{borough_lab}}{character Borough name label for mapping}
+#'   \item{\code{code}}{character GSS code}
+#'   \item{\code{new_dwellings}}{integer Average annual net housing completions, 2020/21 - 2022/23}
+#'   \item{\code{lp2021_target}}{integer 2021 London Plan annual housing target}
+#'   \item{\code{geometry}}{sfc_POLYGON geometry}
+#'}
+#' @source \href{https://trustforlondon.org.uk/data/new-housing-completions/}{Trust for London: Housing completions by London borough}
+#' @source \href{https://github.com/jbaileyh/geogrid}{geogrid}
+"housing_london"
