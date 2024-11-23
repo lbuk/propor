@@ -1,0 +1,21 @@
+Package: propor
+Title: Data for Wurman-Style Maps
+Version: 0.1.0
+Authors@R: person(given = "Liam Thomas", family = "Bolton", email = "liamthomasbolton@gmail.com", role = c("aut", "cre"))
+Description: propor is an R package for creating data for Wurman-style maps, a mapping technique in which tiles (e.g. 
+             triangles, hexagons, circles, squares, diamonds) are proportionally resized according to a specified 
+             variable and visualised with the original tiles for comparison.
+Depends:
+    R (>= 3.6.0)
+Imports:    
+    sf,
+    dplyr,
+    stringr,
+    deldir,
+    units,
+    rlang
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
